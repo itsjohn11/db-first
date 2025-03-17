@@ -1,15 +1,17 @@
 Struttura di una tabella di auto usate
 
-id					- UNSIGNED BIGINT
-vin					- VARCHAR(255)
-brand					- VARCHAR(255)
-model					- VARCHAR(255)
-km					- VARCHAR(255)		
-quality					- VARCHAR(255)
-coupons				- UNSIGNED SMALLINT
-color					- VARCHAR(255)
-price_euro				- DECIMAL(4,2)
-assessment				- DECIMAL(4,2)
-dimensions				- VARCHAR(255)			
-tecnology				- TEXT
-weight_kg				- FLOAT(4,2)
+id					        - UNSIGNED BIGINT		- PRIMARY KEY (UNIQUE, NOT NULL)   - AUTO_INCREMENT
+vin					        - VARCHAR(255)			- NULL  - UNIQUE
+brand					    - VARCHAR(255)			- NOT NULL  -  
+model					    - VARCHAR(255)			- NOT NULL 
+km					        - VARCHAR(255)			- NOT NULL
+quality					    - VARCHAR(255)			- NOT NULL
+coupons				        - UNSIGNED SMALLINT		- NOT NULL
+color					    - VARCHAR(255)			- NOT NULL - DEFAULT(WIHITE)
+price_euro				    - DECIMAL(4,2)			- NOT NULL - DEFaULT(1.000) 
+dimensions				    - VARCHAR(255)			- NULL
+tecnology				    - TEXT				    - NULL
+weight_kg				    - FLOAT(4,2)			- NULL
+availability				- TEXT				    - NOT NULL
+language				    - VARCHAR(255)			- NOT NULL - DEFAULT (“italiano”) 
+years_of_registration		- DATE				    - NOT NULL
