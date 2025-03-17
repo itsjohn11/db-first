@@ -1,0 +1,15 @@
+Struttura di una tabella di auto usate
+
+id					- UNSIGNED BIGINT
+vin					- VARCHAR(255)
+brand					- VARCHAR(255)
+model					- VARCHAR(255)
+km					- VARCHAR(255)		
+quality					- VARCHAR(255)
+coupons				- UNSIGNED SMALLINT
+color					- VARCHAR(255)
+price_euro				- DECIMAL(4,2)
+assessment				- DECIMAL(4,2)
+dimensions				- VARCHAR(255)			
+tecnology				- TEXT
+weight_kg				- FLOAT(4,2)
