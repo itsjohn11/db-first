@@ -4,7 +4,7 @@ id					        - UNSIGNED BIGINT		- PRIMARY KEY (UNIQUE, NOT NULL)   - AUTO_INCR
 vin					        - VARCHAR(255)			- NULL  - UNIQUE
 brand					    - VARCHAR(255)			- NOT NULL  -  
 model					    - VARCHAR(255)			- NOT NULL 
-km					        - VARCHAR(255)			- NOT NULL
+km					        - AUTO_INCREMENT			- NOT NULL
 quality					    - VARCHAR(255)			- NOT NULL
 coupons				        - UNSIGNED SMALLINT		- NOT NULL
 color					    - VARCHAR(255)			- NOT NULL - DEFAULT(WIHITE)
